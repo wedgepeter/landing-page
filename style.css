@@ -2,6 +2,9 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
 }
 
 /*HEADER*/
@@ -51,4 +54,9 @@ a {
 
 .hero {
     flex: 1;
+    background-color: burlywood;
+}
+
+.footer {
+    
 }
