@@ -21,22 +21,21 @@ img {
     width: 50px;
 }
 
-.logo {
+.header .logo {
     font-size: 24px;
     color: rgb(90, 44, 11);
     flex: 1;
     margin: 0px;
-    padding: 0px;
+    padding-left: 4px;
     display: flex;
     align-items: center;
     gap: 4px;
 }
 
-.links {
+.header .links {
     margin-right: 0px;
     padding-right: 16px;
     margin-bottom: 0px;
-    padding-bottom: 0px;
 }
 
 ul {
@@ -55,8 +54,57 @@ a {
 .hero {
     flex: 1;
     background-color: burlywood;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 16px 40px;
+}
+
+.text {
+    max-width: 600px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 8px;
+}
+
+.second {
+    font-size: 18px;
+    margin: 8px;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: rgba(172, 82, 18, 0.877);
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin: 8px;
+}
+
+.image img {
+    width: 600px;
+}
+
+
+
+.inf {
+    flex: 1;
+}
+
+.quote {
+    flex: 1;
 }
 
 .footer {
-    
+    background-color: burlywood;
 }
+
